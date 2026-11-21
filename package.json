@@ -1,0 +1,61 @@
+{
+  "name": "discord.js-selfbot-v13",
+  "version": "4.0.0",
+  "description": "Fork of discord.js-selfbot-v13 with an updated client fingerprint and more robust REST and gateway handling",
+  "main": "./src/index.js",
+  "types": "./typings/index.d.ts",
+  "scripts": {
+    "test": "node --test test/",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "format": "prettier --write \"src/**/*.js\" \"typings/**/*.ts\""
+  },
+  "files": [
+    "src",
+    "typings"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeromv/discord.js-selfbot-v13.git"
+  },
+  "keywords": [
+    "discord",
+    "selfbot",
+    "discord.js",
+    "api",
+    "client",
+    "user-account"
+  ],
+  "license": "GPL-3.0",
+  "engines": {
+    "node": ">=20.18"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^1.6.3",
+    "@discordjs/collection": "^2.1.1",
+    "@sapphire/async-queue": "^1.5.5",
+    "@sapphire/shapeshift": "^4.0.0",
+    "discord-api-types": "^0.38.15",
+    "fetch-cookie": "^3.1.0",
+    "find-process": "^2.1.1",
+    "otplib": "^12.0.1",
+    "prism-media": "^1.3.5",
+    "qrcode": "^1.5.4",
+    "tough-cookie": "^5.1.2",
+    "tree-kill": "^1.2.2",
+    "undici": "^7.11.0",
+    "werift-rtp": "^0.8.9",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "@types/ws": "^8.5.10",
+    "eslint": "^8.39.0",
+    "prettier": "^2.8.8",
+    "typescript": "^5.5.4"
+  },
+  "bugs": {
+    "url": "https://github.com/aeromv/discord.js-selfbot-v13/issues"
+  },
+  "homepage": "https://github.com/aeromv/discord.js-selfbot-v13#readme"
+}
